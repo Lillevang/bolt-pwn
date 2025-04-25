@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SleekUpload</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="/images/logo.svg" alt="SleekUpload Logo">
+        <h1>SleekUpload</h1>
+      </div>
+      <p class="tagline">Seamless file uploads with no restrictions</p>
+    </header>
+
+    <main>
+      <section class="upload-section">
+        <div class="upload-card">
+          <div id="upload-zone" class="upload-zone">
+            <div class="upload-content">
+              <img src="/images/upload-icon.svg" alt="Upload" class="upload-icon">
+              <h2>Drop files here or click to upload</h2>
+              <p>No file type or size limits</p>
+              <input type="file" id="file-input" multiple hidden>
+              <button class="btn primary" id="select-files-btn">Select Files</button>
+            </div>
+            <div class="upload-progress-container" id="upload-progress-container">
+              <div class="progress-info">
+                <span id="upload-filename">Uploading...</span>
+                <span id="upload-percentage">0%</span>
+              </div>
+              <div class="progress-bar-container">
+                <div class="progress-bar" id="upload-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="file-list-section">
+        <div class="section-header">
+          <h2>Uploaded Files</h2>
+          <div class="section-actions">
+            <button class="btn secondary refresh-btn" id="refresh-files-btn">
+              <img src="/images/refresh-icon.svg" alt="Refresh" class="btn-icon">
+              Refresh
+            </button>
+          </div>
+        </div>
+        <div class="file-list-container">
+          <div id="file-list" class="file-list">
+            <!-- Files will be populated here via JavaScript -->
+            <div class="file-list-empty" id="file-list-empty">
+              <img src="/images/empty-icon.svg" alt="No files" class="empty-icon">
+              <p>No files uploaded yet</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 SleekUpload. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast">
+    <div class="toast-content">
+      <img id="toast-icon" src="/images/success-icon.svg" alt="Status">
+      <span id="toast-message"></span>
+    </div>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
