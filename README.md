@@ -45,3 +45,22 @@ cd php && php -S localhost:8080
 ```bash
 nc -lvnp 4444
 ```
+
+## ⚠️ Disclaimer
+
+This repo is for educational and awareness purposes only.
+Please don’t deploy this as-is, and don’t use these techniques unethically.
+
+---
+
+## 🧠 Takeaway
+
+AI tools can build working software in seconds — but they don’t think like attackers.
+You still need to review the code, validate inputs, and secure your apps.
+
+---
+
+📎 Related Post
+
+Read the background and see the screenshots on my [my LinkedIn post](https://www.linkedin.com/posts/jeppelillevang_vibecoding-ai-development-activity-7321456876259303424-soUS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIDUx4Bm-1Hxlq6SSERPwMmANPcGL5UTZc)
+More blog content coming soon.
