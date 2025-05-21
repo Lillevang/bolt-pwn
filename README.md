@@ -63,6 +63,6 @@ You still need to review the code, validate inputs, and secure your apps.
 
 ## 📎 Related Post
 
-Read the background and see the screenshots on my [my LinkedIn post](https://www.linkedin.com/posts/jeppelillevang_vibecoding-ai-development-activity-7321456876259303424-soUS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIDUx4Bm-1Hxlq6SSERPwMmANPcGL5UTZc)
+Read the background and see the screenshots on my [website](https://lillevang.dev/blog/bolt-vulnerabilities/) or in the origina [LinkedIn post](https://www.linkedin.com/posts/jeppelillevang_vibecoding-ai-development-activity-7321456876259303424-soUS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAIDUx4Bm-1Hxlq6SSERPwMmANPcGL5UTZc)
 
 More blog content coming soon.
